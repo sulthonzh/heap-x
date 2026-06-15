@@ -1,0 +1,33 @@
+{
+  "name": "heap-x",
+  "version": "1.0.0",
+  "description": "Zero-dependency binary heap and priority queue for JavaScript/TypeScript",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "bin": {
+    "heap-x": "bin/heap-x.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "bench": "node test/bench.js"
+  },
+  "keywords": [
+    "heap",
+    "priority-queue",
+    "binary-heap",
+    "min-heap",
+    "max-heap",
+    "data-structure",
+    "zero-dependency"
+  ],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/heap-x.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

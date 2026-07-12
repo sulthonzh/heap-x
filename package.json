@@ -1,7 +1,7 @@
 {
   "name": "heap-x",
   "version": "1.0.0",
-  "description": "Zero-dependency binary heap and priority queue for JavaScript/TypeScript",
+  "description": "Zero-dep binary heap — push, pop, heapify, heap sort",
   "type": "module",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -18,16 +18,27 @@
     "binary-heap",
     "min-heap",
     "max-heap",
-    "data-structure",
-    "zero-dependency"
+    "data-structure"
   ],
   "author": "sulthonzh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sulthonzh/heap-x.git"
+    "url": "git+https://github.com/sulthonzh/heap-x.git"
   },
   "engines": {
     "node": ">=18"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }
